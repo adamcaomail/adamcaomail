@@ -47,7 +47,7 @@ const Todos = (props) => {
         {flag ? (
           <button
             onClick={() => {
-              setFlag(true);
+              setFlag(flase);
               setOneTodo(defaultOne);
               updateOne(oneTodo);
             }}

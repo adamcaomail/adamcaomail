@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/adamcaomail/static/css/main.4d0c32bf.css",
+    "main.js": "/adamcaomail/static/js/main.97c41bc7.js",
+    "index.html": "/adamcaomail/index.html",
+    "main.4d0c32bf.css.map": "/adamcaomail/static/css/main.4d0c32bf.css.map",
+    "main.97c41bc7.js.map": "/adamcaomail/static/js/main.97c41bc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d0c32bf.css",
+    "static/js/main.97c41bc7.js"
+  ]
+}

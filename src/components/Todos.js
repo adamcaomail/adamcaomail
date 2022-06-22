@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 import * as actions from "../store/todo/todo-action";
 import { v4 as uuidv4 } from "uuid";
-import "./todo.css";
+import "./styles/todo.css";
 
 const Todos = (props) => {
   const defaultOne = { title: "", description: "", id: "0001" };

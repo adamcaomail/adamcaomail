@@ -1,9 +1,10 @@
 import * as types from "./todo-type";
 
-const initialState = [
-  { title: "aaa", description: "cccc", id: "001" },
-  { title: "ggg", description: "ffff", id: "002" },
-];
+// const initialState = [
+//   { title: "aaa", description: "cccc", id: "001" },
+//   { title: "ggg", description: "ffff", id: "002" },
+// ];
+const initialState = [];
 
 const reduce = (state = initialState, action) => {
   switch (action.type) {

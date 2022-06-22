@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 import * as actions from "../store/todo/todo-action";
 import { v4 as uuidv4 } from "uuid";
+import "./todo.css";
 
 const Todos = (props) => {
   const defaultOne = { title: "", description: "", id: "0001" };
@@ -59,35 +60,39 @@ const Todos = (props) => {
         )}
       </div>
       <hr />
-      <table>
-        <thead>
-          <tr>
-            <th>Idx</th>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Action</th>
-          </tr>
-        </thead>
-        <tbody>
-          {todoList.map((it, idx) => (
+      {todoList.length > 0 ? (
+        <table id="customers">
+          <thead>
             <tr>
-              <td>{idx + 1}</td>
-              <td>{it.title}</td>
-              <td>{it.description}</td>
-              <td>
-                <button onClick={() => clickUpdate(it)}>Update</button>
-                <button
-                  onClick={() => {
-                    deleteOne(it.id);
-                  }}
-                >
-                  Delete
-                </button>
-              </td>
+              <th>Idx</th>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Action</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {todoList.map((it, idx) => (
+              <tr>
+                <td>{idx + 1}</td>
+                <td>{it.title}</td>
+                <td>{it.description}</td>
+                <td>
+                  <button onClick={() => clickUpdate(it)}>Update</button>
+                  <button
+                    onClick={() => {
+                      deleteOne(it.id);
+                    }}
+                  >
+                    Delete
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      ) : (
+        <p>Please Add todo</p>
+      )}
     </div>
   );
 };

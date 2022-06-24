@@ -11,7 +11,6 @@ const About = () => {
       } else {
         clearInterval(interval);
       }
-      console.log(`hello number is ${num}`);
     }, 35);
     return () => clearInterval(interval);
   }, [num]);

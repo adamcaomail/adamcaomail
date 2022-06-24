@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/adamcaomail/static/css/main.04c887f1.css",
-    "main.js": "/adamcaomail/static/js/main.54bda20e.js",
+    "main.css": "/adamcaomail/static/css/main.ab3ab705.css",
+    "main.js": "/adamcaomail/static/js/main.3cbba3eb.js",
     "index.html": "/adamcaomail/index.html",
-    "main.04c887f1.css.map": "/adamcaomail/static/css/main.04c887f1.css.map",
-    "main.54bda20e.js.map": "/adamcaomail/static/js/main.54bda20e.js.map"
+    "main.ab3ab705.css.map": "/adamcaomail/static/css/main.ab3ab705.css.map",
+    "main.3cbba3eb.js.map": "/adamcaomail/static/js/main.3cbba3eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.04c887f1.css",
-    "static/js/main.54bda20e.js"
+    "static/css/main.ab3ab705.css",
+    "static/js/main.3cbba3eb.js"
   ]
 }

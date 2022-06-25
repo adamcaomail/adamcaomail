@@ -6,6 +6,7 @@ import Content from "./components/Content";
 import Bonsai from "./components/Bonsai";
 import Counter from "./components/Counter";
 import Todos from "./components/Todos";
+import CircularBar from "./components/CircularBar";
 
 const routes = [
   { name: "welcome", url: "/", component: Welcome },
@@ -13,7 +14,8 @@ const routes = [
   { name: "about page", url: "/about", component: About },
   { name: "content page", url: "/content", component: Content },
   { name: "bonsai", url: "/bonsai", component: Bonsai },
-  { name: "todos", url: "/todos", component: Todos },
+  { name: "Todos", url: "/todos", component: Todos },
+  { name: "CircularBar", url: "/circularbar", component: CircularBar },
 ];
 
 function App() {
